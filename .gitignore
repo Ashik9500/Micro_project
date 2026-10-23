@@ -30,3 +30,6 @@ pnpm-debug.log*
 .idea/
 .DS_Store
 Thumbs.db
+
+# Submission ZIP outputs
+submissions/
