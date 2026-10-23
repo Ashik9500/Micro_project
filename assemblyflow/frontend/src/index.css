@@ -1,0 +1,72 @@
+/* AssemblyFlow - Base Styles & Theme Variables */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Warm neutral canvas & surfaces */
+  --bg-app: #f9fafb;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f3f4f6;
+  --bg-inset: #f8fafc;
+
+  /* Typography colors */
+  --text-main: #111827;
+  --text-secondary: #374151;
+  --text-muted: #6b7280;
+  --text-dim: #9ca3af;
+
+  /* Borders & Dividers */
+  --border-light: #e5e7eb;
+  --border-medium: #d1d5db;
+
+  /* Restrained Muted Green Accent */
+  --accent-primary: #15803d;
+  --accent-hover: #166534;
+  --accent-subtle: #f0fdf4;
+  --accent-border: #bbf7d0;
+
+  /* Status Colors */
+  --status-connected-bg: #dcfce7;
+  --status-connected-text: #166534;
+  --status-connected-dot: #15803d;
+
+  --status-disconnected-bg: #fee2e2;
+  --status-disconnected-text: #991b1b;
+  --status-disconnected-dot: #dc2626;
+
+  --status-checking-bg: #fef3c7;
+  --status-checking-text: #92400e;
+  --status-checking-dot: #d97706;
+
+  /* Font Families */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  /* Shadows (Restrained, subtle) */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+}
+
+html, body {
+  min-height: 100vh;
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+}

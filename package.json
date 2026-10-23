@@ -1,0 +1,24 @@
+{
+  "name": "assemblyflow-micro-project",
+  "version": "1.0.0",
+  "description": "AssemblyFlow - Automated Assembly Code Normalizer & Pipelined Execution Analyzer",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix assemblyflow/backend && npm install --prefix assemblyflow/frontend",
+    "build": "npm run build --prefix assemblyflow/frontend && npm run build --prefix assemblyflow/backend",
+    "start": "npm start --prefix assemblyflow/backend",
+    "test": "npm test --prefix assemblyflow/backend",
+    "lint": "npm run lint --prefix assemblyflow/frontend",
+    "dev:backend": "npm run dev --prefix assemblyflow/backend",
+    "dev:frontend": "npm run dev --prefix assemblyflow/frontend"
+  },
+  "keywords": [
+    "assembly",
+    "risc-pipeline",
+    "hazard-detection",
+    "automata",
+    "compiler"
+  ],
+  "author": "",
+  "license": "ISC"
+}
