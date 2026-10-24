@@ -36,18 +36,6 @@
 
 ---
 
-## 📁 Subject Reports Included
-
-Comprehensive, academic project reports are available in both **Markdown (`.md`)** and **Publication-Ready PDF (`.pdf`)** format inside the `reports/` folder:
-
-| Subject | Report Title | Markdown File | PDF Document |
-| :--- | :--- | :--- | :--- |
-| **FLAT** | Formal Languages & Automata Theory | [`FLAT_MicroProject_Report.md`](reports/FLAT_MicroProject_Report.md) | [`FLAT_MicroProject_Report.pdf`](reports/FLAT_MicroProject_Report.pdf) |
-| **COA** | Computer Organization & Architecture | [`COA_MicroProject_Report.md`](reports/COA_MicroProject_Report.md) | [`COA_MicroProject_Report.pdf`](reports/COA_MicroProject_Report.pdf) |
-| **DAA** | Design & Analysis of Algorithms | [`DAA_MicroProject_Report.md`](reports/DAA_MicroProject_Report.md) | [`DAA_MicroProject_Report.pdf`](reports/DAA_MicroProject_Report.pdf) |
-
----
-
 ## 🚀 Running the Project Locally
 
 ### Prerequisites
